@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,500&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    line-height: 1.4;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 13px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.items {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.items::before {
+    content: "";
+    background-color: rgb(20, 14, 14);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.items a {
+    margin: 2px 30px;
+    font-size: 80px;
+    letter-spacing: normal;
+    font-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 2px 10px;
+    
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.hero_section {
+    background-image: url(./images/developer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.text_container h1 {
+    color: white;
+    margin-left: 1682px;
+    padding-top: 12px;
+}
+
+
+.text_container h4 {
+    color: white;
+    padding-top: -10px;
+    margin-left: 1686px;
+}
+
+.lg_height {
+    font-size: 5rem;
+}
+
+.black_box {
+    height: 550px;
+    width: 100%;
+    background-color: rgb(20, 14, 14);
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding-top: 83px;
+    font-size: 150px;
+    font-weight: 900;
+}
+
+.lg_height2 {
+    font-size: 270px;
+    font-weight: 600;
+}
+
+.work {
+    display: flex;
+    background-color: grey
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+/* for first card */
+.first {
+    width: 1135px;
+    height: 1301px;
+    margin-top: 45px;
+    margin-right: 500px;
+    border-radius: 23px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    background-color: rgb(36, 30, 30);
+}
+
+.first:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.first img {
+    display: block;
+    height: 681px;
+    border-radius: 4px;
+
+}
+
+.first h1 {
+    font-weight: 1000;
+    margin: -70px 2px;
+    height: 277px;
+    font-size: 89px;
+    margin-top: 33px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    margin-bottom: -156px;
+    color: white;
+}
+
+.first p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    letter-spacing: normal;
+    text-align: justify;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+    padding: 20px;
+    padding: 40px;
+}
+
+/* for second card */
+
+
+.second:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.second {
+    width: 1135px;
+    height: 1301px;
+    margin-top: 45px;
+    margin-right: 500px;
+    border-radius: 23px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    background-color: rgb(36, 30, 30);
+}
+
+.second img {
+    display: block;
+    height: 680px;
+    border-radius: 23px;
+}
+
+.second h1 {
+    font-weight: 1000;
+    margin: -70px 2px;
+    height: 277px;
+    font-size: 89px;
+    margin-top: 33px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    margin-bottom: -135px;
+    color: white;
+}
+
+.second p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    letter-spacing: normal;
+    text-align: justify;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+    padding: 20px;
+    padding: 40px;
+}
+
+
+
+/* for thirdthird */
+
+
+
+.third:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.third {
+    width: 1135px;
+    height: 1301px;
+    margin-top: 45px;
+    border-radius: 23px;
+    background-color: rgb(36, 30, 30);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+}
+
+.third img {
+    display: block;
+    height: 681px;
+    border-radius: 23px;
+}
+
+.third h1 {
+    font-weight: 1000;
+    margin: -70px 2px;
+    height: 277px;
+    font-size: 89px;
+    margin-top: 33px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    margin-bottom: -149px;
+    color: white;
+}
+
+.third p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    letter-spacing: normal;
+    text-align: justify;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+    padding: 40px;
+}
+
+/* boxes section  */
+
+.boxes {
+    display: flex;
+}
+
+.box1 {
+    width: 150%;
+    height: 1000px;
+    background-color: #515603;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box1 p {
+    font-size: 61px;
+    padding: 20px 350px;
+    letter-spacing: normal;
+    margin-top: 7px;
+    color: white;
+}
+
+.box1 h1 {
+    color: white;
+    font-weight: bolder;
+    margin-left: 337px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.box2 {
+    width: 150%;
+    height: 1000px;
+    background-color: #722300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box2 p {
+    font-size: 61px;
+    padding: 20px 350px;
+    letter-spacing: normal;
+    margin-top: 7px;
+    color: white;
+}
+
+.box2 h1 {
+    color: white;
+    font-weight: bolder;
+    margin-left: 337px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+
+/* footer_section */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+footer .text_footer {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 55px;
+    font-size: 54px;
+}
